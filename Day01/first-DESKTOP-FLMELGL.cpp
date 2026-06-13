@@ -136,25 +136,4 @@
 //  for pyramid
 
 
-#include <iostream>
-using namespace std;
-
-int main(){
-
-    int enter_rows;
-    cin>>enter_rows;
-
-    for(int row=1;row<=enter_rows;row++){
-
-     for(int col=1; col<=enter_rows-row;col++){
-        cout<<" ";
-     }
-
-     for(int col=1;col<=2*row-1;col++){
-        cout<<"*";
-     }
-       cout << endl;
-    }
-    return 0;
-}
 

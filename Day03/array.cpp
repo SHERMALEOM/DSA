@@ -29,56 +29,33 @@
 //     }
 // }
 
-// //  rotate the array
+//  rotate the array
 
-//  #include <iostream>
-//  using namespace std;
+ #include <iostream>
+ using namespace std;
 
-// // we  have to  to make one array  and rotate them by position one 
-// int main() {
-//     // create an array
-//     int arr[8]={12 , 23 ,78  , 54, 57, 78,98,26};
-//     int last_digit=26;
-//     for (int i = 6; i <=0; i--)
-//     {
-//        arr[i+1]=arr[i]; 
-//     }
-//     arr[0] = last_digit;
-
-//     for (int i = 0; i < 8; i++)
-//     {
-//         cout<<arr[i]<<" ";
-//     }
-    
-    
-//     return 0;
-// }
-
-
-
-
-// rotate number  by  giving the  input
-#include <iostream>
-using namespace std;
-
-int main(){
-  int   arr[8]={87 , 89,48 ,54,214, 77,11,55};
-    int num;
-    cin>>num;   //  here the num specifies the number of rotation w.r.t last digit 
-
-    int last_digit=0;
-    
-    for (int i = 0; i < num; i++)
+// we  have to  to make one array  and rotate them by position one 
+int main() {
+    // create an array
+    int arr[8]={12 , 23 ,78  , 54, 57, 78,98,26};
+    int last_digit=26;
+    for (int i = 6; i <=0; i--)
     {
+       arr[i+1]=arr[i]; 
+    }
+    arr[0] = last_digit;
 
-       arr[0]=arr[num-1];
-       
-
-
+    for (int i = 0; i < 8; i++)
+    {
+        cout<<arr[i]<<" ";
     }
     
-
-
-
+    
+    return 0;
 }
+
+
+
+
+
 
